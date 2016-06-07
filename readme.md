@@ -15,7 +15,7 @@ A boilerplate I personally use for all my WordPress plugin projects.
 
 Clone this repository
 ```
-git clone https://github.com/anttiviljami/wp-boilerplate-plugin
+git clone https://github.com/anttiviljami/wp-boilerplate-plugin my-plugin-name
 ```
 
 Substitute the name "Boilerplate Plugin" to your plugin name. *TODO: create a shell script to automate this*
