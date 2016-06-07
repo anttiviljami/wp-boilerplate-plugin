@@ -29,26 +29,26 @@
 if ( ! class_exists('Boilerplate_Plugin') ) :
 
 class Boilerplate_Plugin {
-	public static $instance;
+  public static $instance;
 
-	public static function init() {
-		if ( is_null( self::$instance ) ) {
-			self::$instance = new Boilerplate_Plugin();
-		}
-		return self::$instance;
-	}
+  public static function init() {
+    if ( is_null( self::$instance ) ) {
+      self::$instance = new Boilerplate_Plugin();
+    }
+    return self::$instance;
+  }
 
-	private function __construct() {
-		// load textdomain for translations
-		add_action( 'plugins_loaded',  array( $this, 'load_our_textdomain' ) );
-	}
+  private function __construct() {
+    // load textdomain for translations
+    add_action( 'plugins_loaded',  array( $this, 'load_our_textdomain' ) );
+  }
 
-	/**
-	 * Load our textdomain
-	 */
-	public static function load_our_textdomain() {
-		load_plugin_textdomain( 'wp-boilerplate-plugin', false, dirname( plugin_basename(__FILE__) ) . '/lang/' );
-	}
+  /**
+   * Load our textdomain
+   */
+  public static function load_our_textdomain() {
+    load_plugin_textdomain( 'wp-boilerplate-plugin', false, dirname( plugin_basename(__FILE__) ) . '/lang/' );
+  }
 }
 
 endif;
