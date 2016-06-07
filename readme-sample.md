@@ -1,4 +1,5 @@
 # Boilerplate Plugin
+[![Latest Stable Version](https://poser.pugx.org/anttiviljami/wp-boilerplate-plugin/v/stable)](https://packagist.org/packages/anttiviljami/wp-boilerplate-plugin) [![Total Downloads](https://poser.pugx.org/anttiviljami/wp-boilerplate-plugin/downloads)](https://packagist.org/packages/anttiviljami/wp-boilerplate-plugin) [![Latest Unstable Version](https://poser.pugx.org/anttiviljami/wp-boilerplate-plugin/v/unstable)](https://packagist.org/packages/anttiviljami/wp-boilerplate-plugin) [![License](https://poser.pugx.org/anttiviljami/wp-boilerplate-plugin/license)](https://packagist.org/packages/anttiviljami/wp-boilerplate-plugin)
 
 Boilerplate description
 
