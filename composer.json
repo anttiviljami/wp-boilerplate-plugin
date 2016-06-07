@@ -1,0 +1,13 @@
+{
+    "name": "anttiviljami/wp-boilerplate-plugin",
+    "description": "Boilerplate description",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Antti Kuosmanen",
+            "email": "antti@seravo.fi"
+        }
+    ],
+    "require": {}
+}
